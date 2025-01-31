@@ -2,8 +2,8 @@
 import re
 
 
-def caching_fibonacci(n = 1, cache = {}):
-
+def caching_fibonacci( ):
+    cache = {}
 
     def fibonacci(n):
         if n <= 0:
